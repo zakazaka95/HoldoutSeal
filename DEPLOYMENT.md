@@ -31,7 +31,7 @@ claimed.
 | Original benchmark finalization | [Benchmark 0 finalized](https://explorer-studio-dev.genlayer.com/tx/0x07c46fc32fe8ad9a93dcd448f04f288a564a503068e65f1b7115bb1d4c75c7ff) after its fixed deadline, preserving terminal `INCONCLUSIVE` and no certificate |
 | Clarified benchmark finalization | [Benchmark 1 finalized](https://explorer-studio-dev.genlayer.com/tx/0xedb3ed64a6e61ae89e533335ecde5045e884955df899e19043e3fc6a1df10b1b) after its fixed deadline; the exact scoped certificate remains unchanged |
 | Transaction finality | All eleven synthetic network transactions successful and `FINALIZED`, including both benchmark finalizations; complete check November 22 at 09:44:42 UTC |
-| Portal contribution ID / status | Not submitted yet |
+| Portal contribution ID / status | `4206c0a4-5abf-40f3-a34a-e456a3549753` — [Pending review](https://portal.genlayer.foundation/my-submissions?q=HoldoutSeal), verified November 22, 2026, with four matching evidence items; no points awarded or claimed |
 
 ## Minimal runner migration
 
