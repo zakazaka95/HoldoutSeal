@@ -1,0 +1,146 @@
+{
+  "name": "holdoutseal",
+  "checkedAt": "2026-11-22T09:29:24.366Z",
+  "chainId": 61997,
+  "rpc": "https://studio-dev.genlayer.com/api",
+  "sourceSha256": "989cbccd67e0f17274818c2d56f15e844b93a8301f6b550181b94d978aceb972",
+  "schema": {
+    "ctor": {
+      "params": [],
+      "kwparams": {}
+    },
+    "methods": {
+      "assess_policy": {
+        "params": [
+          [
+            "candidate_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "dict",
+        "payable": false
+      },
+      "enroll_policy": {
+        "params": [
+          [
+            "benchmark_id",
+            "int"
+          ],
+          [
+            "policy_text",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "int",
+        "payable": false
+      },
+      "finalize_expired": {
+        "params": [
+          [
+            "benchmark_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "int",
+        "payable": false
+      },
+      "get_attempt": {
+        "params": [
+          [
+            "candidate_id",
+            "int"
+          ],
+          [
+            "attempt",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "dict"
+      },
+      "get_benchmark": {
+        "params": [
+          [
+            "benchmark_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "dict"
+      },
+      "get_candidate": {
+        "params": [
+          [
+            "candidate_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "dict"
+      },
+      "get_certificate": {
+        "params": [
+          [
+            "candidate_id",
+            "int"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "dict"
+      },
+      "get_stats": {
+        "params": [],
+        "kwparams": {},
+        "readonly": true,
+        "ret": "dict"
+      },
+      "open_benchmark": {
+        "params": [
+          [
+            "spec_json",
+            "string"
+          ],
+          [
+            "corpus_commitment",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "int",
+        "payable": false
+      },
+      "reveal_benchmark": {
+        "params": [
+          [
+            "benchmark_id",
+            "int"
+          ],
+          [
+            "cases_json",
+            "string"
+          ],
+          [
+            "salt",
+            "string"
+          ]
+        ],
+        "kwparams": {},
+        "readonly": false,
+        "ret": "null",
+        "payable": false
+      }
+    }
+  },
+  "successful": true
+}

@@ -1,0 +1,149 @@
+{
+  "name": "holdoutseal",
+  "chainId": 61997,
+  "contractAddress": "0xa336823415BaD11521844DE9a477b85d7ec7d687",
+  "sourceSha256": "989cbccd67e0f17274818c2d56f15e844b93a8301f6b550181b94d978aceb972",
+  "transactions": [
+    {
+      "stage": "deployment",
+      "hash": "0xfb68936f5ffd88868ef8ac5cda4304d909c55f7caae89273df64174bc692c437",
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0xfb68936f5ffd88868ef8ac5cda4304d909c55f7caae89273df64174bc692c437",
+      "finalization": {
+        "hash": "0xfb68936f5ffd88868ef8ac5cda4304d909c55f7caae89273df64174bc692c437",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0xfb68936f5ffd88868ef8ac5cda4304d909c55f7caae89273df64174bc692c437"
+      }
+    },
+    {
+      "stage": "benchmark-open",
+      "hash": "0xc99a1e225b42f21bd3f0c9a4dfd8c9b5f552fcecf2e1345f2f76ce72d4c81c06",
+      "method": "open_benchmark",
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0xc99a1e225b42f21bd3f0c9a4dfd8c9b5f552fcecf2e1345f2f76ce72d4c81c06",
+      "finalization": {
+        "hash": "0xc99a1e225b42f21bd3f0c9a4dfd8c9b5f552fcecf2e1345f2f76ce72d4c81c06",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0xc99a1e225b42f21bd3f0c9a4dfd8c9b5f552fcecf2e1345f2f76ce72d4c81c06"
+      }
+    },
+    {
+      "stage": "policy-enroll",
+      "hash": "0xed89221aa2539f58788861cd1d0e17684f7b81509a243fa3902d5531c51a838c",
+      "method": "enroll_policy",
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0xed89221aa2539f58788861cd1d0e17684f7b81509a243fa3902d5531c51a838c",
+      "finalization": {
+        "hash": "0xed89221aa2539f58788861cd1d0e17684f7b81509a243fa3902d5531c51a838c",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0xed89221aa2539f58788861cd1d0e17684f7b81509a243fa3902d5531c51a838c"
+      }
+    },
+    {
+      "stage": "benchmark-reveal",
+      "hash": "0x251a8919515ec988856d3f3e2928e039dfb83d456c337c01f47277d6f89f987d",
+      "method": "reveal_benchmark",
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0x251a8919515ec988856d3f3e2928e039dfb83d456c337c01f47277d6f89f987d",
+      "finalization": {
+        "hash": "0x251a8919515ec988856d3f3e2928e039dfb83d456c337c01f47277d6f89f987d",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0x251a8919515ec988856d3f3e2928e039dfb83d456c337c01f47277d6f89f987d"
+      }
+    },
+    {
+      "stage": "policy-assess",
+      "hash": "0x3c5e9778a51fa4fb0acf6f634dc813481ef1d2f25be278584c12da4a1bd744ac",
+      "method": "assess_policy",
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0x3c5e9778a51fa4fb0acf6f634dc813481ef1d2f25be278584c12da4a1bd744ac",
+      "finalization": {
+        "hash": "0x3c5e9778a51fa4fb0acf6f634dc813481ef1d2f25be278584c12da4a1bd744ac",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0x3c5e9778a51fa4fb0acf6f634dc813481ef1d2f25be278584c12da4a1bd744ac"
+      }
+    },
+    {
+      "stage": "benchmark-finalize",
+      "hash": "0x07c46fc32fe8ad9a93dcd448f04f288a564a503068e65f1b7115bb1d4c75c7ff",
+      "method": "finalize_expired",
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0x07c46fc32fe8ad9a93dcd448f04f288a564a503068e65f1b7115bb1d4c75c7ff",
+      "finalization": {
+        "hash": "0x07c46fc32fe8ad9a93dcd448f04f288a564a503068e65f1b7115bb1d4c75c7ff",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0x07c46fc32fe8ad9a93dcd448f04f288a564a503068e65f1b7115bb1d4c75c7ff"
+      }
+    },
+    {
+      "stage": "scoped-benchmark-open",
+      "hash": "0x5f39d8c7afa00f082713edc970a79203c4aedff5740a863d7ac432a4333f3240",
+      "method": "open_benchmark",
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0x5f39d8c7afa00f082713edc970a79203c4aedff5740a863d7ac432a4333f3240",
+      "finalization": {
+        "hash": "0x5f39d8c7afa00f082713edc970a79203c4aedff5740a863d7ac432a4333f3240",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0x5f39d8c7afa00f082713edc970a79203c4aedff5740a863d7ac432a4333f3240"
+      }
+    },
+    {
+      "stage": "scoped-policy-enroll",
+      "hash": "0x71494d1fb7570ac76e1bf8c3784fc7584c2d86693e2927b9c5a69e085256dd76",
+      "method": "enroll_policy",
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0x71494d1fb7570ac76e1bf8c3784fc7584c2d86693e2927b9c5a69e085256dd76",
+      "finalization": {
+        "hash": "0x71494d1fb7570ac76e1bf8c3784fc7584c2d86693e2927b9c5a69e085256dd76",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0x71494d1fb7570ac76e1bf8c3784fc7584c2d86693e2927b9c5a69e085256dd76"
+      }
+    },
+    {
+      "stage": "scoped-benchmark-reveal",
+      "hash": "0xc60e11f5df69c0b110d004c581d3a6a63f427f95726a14f0b875315a0d7a413f",
+      "method": "reveal_benchmark",
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0xc60e11f5df69c0b110d004c581d3a6a63f427f95726a14f0b875315a0d7a413f",
+      "finalization": {
+        "hash": "0xc60e11f5df69c0b110d004c581d3a6a63f427f95726a14f0b875315a0d7a413f",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0xc60e11f5df69c0b110d004c581d3a6a63f427f95726a14f0b875315a0d7a413f"
+      }
+    },
+    {
+      "stage": "scoped-policy-assess",
+      "hash": "0xbe17aaab13dea6d7dca77a8c025178c98068ce2717947b3d761088cbdf41baa1",
+      "method": "assess_policy",
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0xbe17aaab13dea6d7dca77a8c025178c98068ce2717947b3d761088cbdf41baa1",
+      "finalization": {
+        "hash": "0xbe17aaab13dea6d7dca77a8c025178c98068ce2717947b3d761088cbdf41baa1",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0xbe17aaab13dea6d7dca77a8c025178c98068ce2717947b3d761088cbdf41baa1"
+      }
+    },
+    {
+      "stage": "scoped-benchmark-finalize",
+      "hash": "0xedb3ed64a6e61ae89e533335ecde5045e884955df899e19043e3fc6a1df10b1b",
+      "method": "finalize_expired",
+      "assertionsPassed": true,
+      "url": "https://explorer-studio-dev.genlayer.com/tx/0xedb3ed64a6e61ae89e533335ecde5045e884955df899e19043e3fc6a1df10b1b",
+      "finalization": {
+        "hash": "0xedb3ed64a6e61ae89e533335ecde5045e884955df899e19043e3fc6a1df10b1b",
+        "successful": true,
+        "status": "FINALIZED",
+        "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0xedb3ed64a6e61ae89e533335ecde5045e884955df899e19043e3fc6a1df10b1b"
+      }
+    }
+  ]
+}

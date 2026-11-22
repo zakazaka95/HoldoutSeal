@@ -1,0 +1,1571 @@
+{
+  "name": "holdoutseal",
+  "chainId": 61997,
+  "contractAddress": "0xa336823415BaD11521844DE9a477b85d7ec7d687",
+  "contractUrl": "https://explorer-studio-dev.genlayer.com/address/0xa336823415BaD11521844DE9a477b85d7ec7d687",
+  "deploymentTxHash": "0xfb68936f5ffd88868ef8ac5cda4304d909c55f7caae89273df64174bc692c437",
+  "sourceSha256": "989cbccd67e0f17274818c2d56f15e844b93a8301f6b550181b94d978aceb972",
+  "completeDeployedSourceMatches": true,
+  "syntheticInputsOnly": true,
+  "transactionValue": "0",
+  "normalConsensus": true,
+  "finalizations": [
+    {
+      "hash": "0xfb68936f5ffd88868ef8ac5cda4304d909c55f7caae89273df64174bc692c437",
+      "successful": true,
+      "status": "FINALIZED",
+      "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0xfb68936f5ffd88868ef8ac5cda4304d909c55f7caae89273df64174bc692c437"
+    },
+    {
+      "hash": "0x5f39d8c7afa00f082713edc970a79203c4aedff5740a863d7ac432a4333f3240",
+      "successful": true,
+      "status": "FINALIZED",
+      "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0x5f39d8c7afa00f082713edc970a79203c4aedff5740a863d7ac432a4333f3240"
+    },
+    {
+      "hash": "0x71494d1fb7570ac76e1bf8c3784fc7584c2d86693e2927b9c5a69e085256dd76",
+      "successful": true,
+      "status": "FINALIZED",
+      "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0x71494d1fb7570ac76e1bf8c3784fc7584c2d86693e2927b9c5a69e085256dd76"
+    },
+    {
+      "hash": "0xc60e11f5df69c0b110d004c581d3a6a63f427f95726a14f0b875315a0d7a413f",
+      "successful": true,
+      "status": "FINALIZED",
+      "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0xc60e11f5df69c0b110d004c581d3a6a63f427f95726a14f0b875315a0d7a413f"
+    },
+    {
+      "hash": "0xbe17aaab13dea6d7dca77a8c025178c98068ce2717947b3d761088cbdf41baa1",
+      "successful": true,
+      "status": "FINALIZED",
+      "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0xbe17aaab13dea6d7dca77a8c025178c98068ce2717947b3d761088cbdf41baa1"
+    },
+    {
+      "hash": "0xedb3ed64a6e61ae89e533335ecde5045e884955df899e19043e3fc6a1df10b1b",
+      "successful": true,
+      "status": "FINALIZED",
+      "explorerUrl": "https://explorer-studio-dev.genlayer.com/tx/0xedb3ed64a6e61ae89e533335ecde5045e884955df899e19043e3fc6a1df10b1b"
+    }
+  ],
+  "steps": [
+    {
+      "stage": "scoped-benchmark-open",
+      "method": "open_benchmark",
+      "operationHash": "8451a55ce8e08dd131138c5392c04558239a422e5fd4645df6d5cb9ea0bc33b3",
+      "contractAddress": "0xa336823415BaD11521844DE9a477b85d7ec7d687",
+      "sourceSha256": "989cbccd67e0f17274818c2d56f15e844b93a8301f6b550181b94d978aceb972",
+      "txHash": "0x5f39d8c7afa00f082713edc970a79203c4aedff5740a863d7ac432a4333f3240",
+      "txUrl": "https://explorer-studio-dev.genlayer.com/tx/0x5f39d8c7afa00f082713edc970a79203c4aedff5740a863d7ac432a4333f3240",
+      "successful": true,
+      "assertionsPassed": true,
+      "observedAt": "2026-11-22T09:38:06.856Z",
+      "observation": {
+        "effective_status": "COMMITTED",
+        "observed_at": 1795340286,
+        "record": {
+          "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+          "candidate_ids": [],
+          "cases": null,
+          "context": {
+            "chain_id": 61997,
+            "contract_address": "0xa336823415bad11521844de9a477b85d7ec7d687"
+          },
+          "corpus_commitment": "507f9e6632c560407f916bc7430a24582194e973be873a0ca7e3aef0a9fb073a",
+          "corpus_hash": "",
+          "created_at": 1795340278,
+          "enrollment_deadline": 1795340338,
+          "evaluation_deadline": 1795340638,
+          "id": 1,
+          "last_observed_at": 1795340278,
+          "owner": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+          "reveal_deadline": 1795340458,
+          "revealed_at": 0,
+          "spec": {
+            "candidates": [
+              "0x566fed25a0c2a109d72483dd4ead47d662a58475"
+            ],
+            "case_count": 4,
+            "enrollment_seconds": 60,
+            "evaluation_seconds": 180,
+            "label_rule": "ALLOW when the policy explicitly permits the exact export; DENY when it explicitly forbids it; otherwise UNCERTAIN.",
+            "max_false_allows": 0,
+            "max_false_denies": 0,
+            "nonce": "278b68284e54c35886fca264e442af10",
+            "purpose": "Classify synthetic file-export permission cases under the supplied policy text.",
+            "reveal_seconds": 120,
+            "title": "Synthetic export policy holdout"
+          },
+          "status": "COMMITTED"
+        }
+      }
+    },
+    {
+      "stage": "scoped-policy-enroll",
+      "method": "enroll_policy",
+      "operationHash": "12383670f5ac18dc9d6c05761c30bf0febdc517d3592e197f8e247244426cbe0",
+      "contractAddress": "0xa336823415BaD11521844DE9a477b85d7ec7d687",
+      "sourceSha256": "989cbccd67e0f17274818c2d56f15e844b93a8301f6b550181b94d978aceb972",
+      "txHash": "0x71494d1fb7570ac76e1bf8c3784fc7584c2d86693e2927b9c5a69e085256dd76",
+      "txUrl": "https://explorer-studio-dev.genlayer.com/tx/0x71494d1fb7570ac76e1bf8c3784fc7584c2d86693e2927b9c5a69e085256dd76",
+      "successful": true,
+      "assertionsPassed": true,
+      "observedAt": "2026-11-22T09:38:17.928Z",
+      "observation": {
+        "effective_status": "ENROLLED",
+        "record": {
+          "attempts": 0,
+          "candidate_hash": "a11c42463d01c8b84e5a26b8fb27f5265f4bb67858a5b9994e3c9ec4b6f8fe69",
+          "certificate": null,
+          "locked": {
+            "address": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+            "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+            "benchmark_id": 1,
+            "enrolled_at": 1795340288,
+            "id": 1,
+            "policy": "An export is ALLOW only when current owner approval is explicitly present and covers its scope. Without owner approval, or when its approval is expired, the export is DENY.",
+            "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa"
+          },
+          "receipt": null,
+          "receipt_hash": "",
+          "status": "ENROLLED"
+        }
+      }
+    },
+    {
+      "stage": "scoped-benchmark-reveal",
+      "method": "reveal_benchmark",
+      "operationHash": "95840c4dd1c476bea84bf39563a558271116014877b3b9210c1eeb894b1fa3fc",
+      "contractAddress": "0xa336823415BaD11521844DE9a477b85d7ec7d687",
+      "sourceSha256": "989cbccd67e0f17274818c2d56f15e844b93a8301f6b550181b94d978aceb972",
+      "txHash": "0xc60e11f5df69c0b110d004c581d3a6a63f427f95726a14f0b875315a0d7a413f",
+      "txUrl": "https://explorer-studio-dev.genlayer.com/tx/0xc60e11f5df69c0b110d004c581d3a6a63f427f95726a14f0b875315a0d7a413f",
+      "successful": true,
+      "assertionsPassed": true,
+      "observedAt": "2026-11-22T09:39:11.729Z",
+      "observation": {
+        "effective_status": "REVEALED",
+        "observed_at": 1795340351,
+        "record": {
+          "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+          "candidate_ids": [
+            1
+          ],
+          "cases": [
+            {
+              "case_id": 0,
+              "expected": "ALLOW",
+              "text": "Export A has current owner approval and is within its approved scope."
+            },
+            {
+              "case_id": 1,
+              "expected": "ALLOW",
+              "text": "Export B has current owner approval and is within its approved scope."
+            },
+            {
+              "case_id": 2,
+              "expected": "DENY",
+              "text": "Export C has no owner approval."
+            },
+            {
+              "case_id": 3,
+              "expected": "DENY",
+              "text": "Export D's only owner approval expired yesterday."
+            }
+          ],
+          "context": {
+            "chain_id": 61997,
+            "contract_address": "0xa336823415bad11521844de9a477b85d7ec7d687"
+          },
+          "corpus_commitment": "507f9e6632c560407f916bc7430a24582194e973be873a0ca7e3aef0a9fb073a",
+          "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+          "created_at": 1795340278,
+          "enrollment_deadline": 1795340338,
+          "evaluation_deadline": 1795340638,
+          "id": 1,
+          "last_observed_at": 1795340340,
+          "owner": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+          "reveal_deadline": 1795340458,
+          "revealed_at": 1795340340,
+          "spec": {
+            "candidates": [
+              "0x566fed25a0c2a109d72483dd4ead47d662a58475"
+            ],
+            "case_count": 4,
+            "enrollment_seconds": 60,
+            "evaluation_seconds": 180,
+            "label_rule": "ALLOW when the policy explicitly permits the exact export; DENY when it explicitly forbids it; otherwise UNCERTAIN.",
+            "max_false_allows": 0,
+            "max_false_denies": 0,
+            "nonce": "278b68284e54c35886fca264e442af10",
+            "purpose": "Classify synthetic file-export permission cases under the supplied policy text.",
+            "reveal_seconds": 120,
+            "title": "Synthetic export policy holdout"
+          },
+          "status": "REVEALED"
+        }
+      }
+    },
+    {
+      "stage": "scoped-policy-assess",
+      "method": "assess_policy",
+      "operationHash": "0a83f4b865ee53c3c93430f4119d914bf6db6db38cd8f6cb5810570282ec1094",
+      "contractAddress": "0xa336823415BaD11521844DE9a477b85d7ec7d687",
+      "sourceSha256": "989cbccd67e0f17274818c2d56f15e844b93a8301f6b550181b94d978aceb972",
+      "txHash": "0xbe17aaab13dea6d7dca77a8c025178c98068ce2717947b3d761088cbdf41baa1",
+      "txUrl": "https://explorer-studio-dev.genlayer.com/tx/0xbe17aaab13dea6d7dca77a8c025178c98068ce2717947b3d761088cbdf41baa1",
+      "successful": true,
+      "assertionsPassed": true,
+      "observedAt": "2026-11-22T09:39:45.935Z",
+      "observation": {
+        "candidate": {
+          "effective_status": "CERTIFIED",
+          "record": {
+            "attempts": 1,
+            "candidate_hash": "a11c42463d01c8b84e5a26b8fb27f5265f4bb67858a5b9994e3c9ec4b6f8fe69",
+            "certificate": {
+              "payload": {
+                "assessed_at": 1795340352,
+                "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+                "benchmark_id": 1,
+                "candidate": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+                "candidate_id": 1,
+                "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+                "metrics": {
+                  "accuracy_bps": 10000,
+                  "case_count": 4,
+                  "confusion": {
+                    "false_allow": 0,
+                    "false_deny": 0,
+                    "true_allow": 2,
+                    "true_deny": 2
+                  },
+                  "correct_count": 4
+                },
+                "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa",
+                "schema": "holdoutseal-v1",
+                "scope": "EXACT_OWNER_DECLARED_BENCHMARK_ONLY"
+              },
+              "receipt_hash": "35b930229ac89f837f0a4d2c60c9ac375d7c3671db67fb5767e44224c9986831"
+            },
+            "locked": {
+              "address": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+              "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+              "benchmark_id": 1,
+              "enrolled_at": 1795340288,
+              "id": 1,
+              "policy": "An export is ALLOW only when current owner approval is explicitly present and covers its scope. Without owner approval, or when its approval is expired, the export is DENY.",
+              "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa"
+            },
+            "receipt": {
+              "assessed_at": 1795340352,
+              "attempt": 1,
+              "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+              "benchmark_id": 1,
+              "candidate_hash": "a11c42463d01c8b84e5a26b8fb27f5265f4bb67858a5b9994e3c9ec4b6f8fe69",
+              "candidate_id": 1,
+              "certificate_payload": {
+                "assessed_at": 1795340352,
+                "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+                "benchmark_id": 1,
+                "candidate": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+                "candidate_id": 1,
+                "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+                "metrics": {
+                  "accuracy_bps": 10000,
+                  "case_count": 4,
+                  "confusion": {
+                    "false_allow": 0,
+                    "false_deny": 0,
+                    "true_allow": 2,
+                    "true_deny": 2
+                  },
+                  "correct_count": 4
+                },
+                "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa",
+                "schema": "holdoutseal-v1",
+                "scope": "EXACT_OWNER_DECLARED_BENCHMARK_ONLY"
+              },
+              "certified": true,
+              "decision": "CERTIFIED",
+              "input": {
+                "benchmark": {
+                  "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+                  "candidate_ids": [
+                    1
+                  ],
+                  "cases": [
+                    {
+                      "case_id": 0,
+                      "expected": "ALLOW",
+                      "text": "Export A has current owner approval and is within its approved scope."
+                    },
+                    {
+                      "case_id": 1,
+                      "expected": "ALLOW",
+                      "text": "Export B has current owner approval and is within its approved scope."
+                    },
+                    {
+                      "case_id": 2,
+                      "expected": "DENY",
+                      "text": "Export C has no owner approval."
+                    },
+                    {
+                      "case_id": 3,
+                      "expected": "DENY",
+                      "text": "Export D's only owner approval expired yesterday."
+                    }
+                  ],
+                  "context": {
+                    "chain_id": 61997,
+                    "contract_address": "0xa336823415bad11521844de9a477b85d7ec7d687"
+                  },
+                  "corpus_commitment": "507f9e6632c560407f916bc7430a24582194e973be873a0ca7e3aef0a9fb073a",
+                  "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+                  "created_at": 1795340278,
+                  "enrollment_deadline": 1795340338,
+                  "evaluation_deadline": 1795340638,
+                  "id": 1,
+                  "last_observed_at": 1795340340,
+                  "owner": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+                  "reveal_deadline": 1795340458,
+                  "revealed_at": 1795340340,
+                  "spec": {
+                    "candidates": [
+                      "0x566fed25a0c2a109d72483dd4ead47d662a58475"
+                    ],
+                    "case_count": 4,
+                    "enrollment_seconds": 60,
+                    "evaluation_seconds": 180,
+                    "label_rule": "ALLOW when the policy explicitly permits the exact export; DENY when it explicitly forbids it; otherwise UNCERTAIN.",
+                    "max_false_allows": 0,
+                    "max_false_denies": 0,
+                    "nonce": "278b68284e54c35886fca264e442af10",
+                    "purpose": "Classify synthetic file-export permission cases under the supplied policy text.",
+                    "reveal_seconds": 120,
+                    "title": "Synthetic export policy holdout"
+                  },
+                  "status": "REVEALED"
+                },
+                "candidate": {
+                  "address": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+                  "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+                  "benchmark_id": 1,
+                  "enrolled_at": 1795340288,
+                  "id": 1,
+                  "policy": "An export is ALLOW only when current owner approval is explicitly present and covers its scope. Without owner approval, or when its approval is expired, the export is DENY.",
+                  "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa"
+                }
+              },
+              "inspection": {
+                "prompt_chars": 1901,
+                "prompt_sha256": "24f12b001b616fa32779ed6f68ad484648ba516b34657d0bb1a789a213c50e5a",
+                "prompt_truncated": false,
+                "prompt_utf8_bytes": 1901,
+                "reference_label_fields_in_prompt": false,
+                "semantic_complete": true
+              },
+              "metrics": {
+                "accuracy_bps": 10000,
+                "case_count": 4,
+                "confusion": {
+                  "false_allow": 0,
+                  "false_deny": 0,
+                  "true_allow": 2,
+                  "true_deny": 2
+                },
+                "correct_count": 4
+              },
+              "predictions": [
+                {
+                  "case_id": 0,
+                  "outcome": "ALLOW"
+                },
+                {
+                  "case_id": 1,
+                  "outcome": "ALLOW"
+                },
+                {
+                  "case_id": 2,
+                  "outcome": "DENY"
+                },
+                {
+                  "case_id": 3,
+                  "outcome": "DENY"
+                }
+              ],
+              "schema": "holdoutseal-v1"
+            },
+            "receipt_hash": "35b930229ac89f837f0a4d2c60c9ac375d7c3671db67fb5767e44224c9986831",
+            "status": "CERTIFIED"
+          }
+        },
+        "attempt": {
+          "assessed_at": 1795340352,
+          "attempt": 1,
+          "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+          "benchmark_id": 1,
+          "candidate_hash": "a11c42463d01c8b84e5a26b8fb27f5265f4bb67858a5b9994e3c9ec4b6f8fe69",
+          "candidate_id": 1,
+          "certificate_payload": {
+            "assessed_at": 1795340352,
+            "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+            "benchmark_id": 1,
+            "candidate": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+            "candidate_id": 1,
+            "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+            "metrics": {
+              "accuracy_bps": 10000,
+              "case_count": 4,
+              "confusion": {
+                "false_allow": 0,
+                "false_deny": 0,
+                "true_allow": 2,
+                "true_deny": 2
+              },
+              "correct_count": 4
+            },
+            "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa",
+            "schema": "holdoutseal-v1",
+            "scope": "EXACT_OWNER_DECLARED_BENCHMARK_ONLY"
+          },
+          "certified": true,
+          "decision": "CERTIFIED",
+          "input": {
+            "benchmark": {
+              "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+              "candidate_ids": [
+                1
+              ],
+              "cases": [
+                {
+                  "case_id": 0,
+                  "expected": "ALLOW",
+                  "text": "Export A has current owner approval and is within its approved scope."
+                },
+                {
+                  "case_id": 1,
+                  "expected": "ALLOW",
+                  "text": "Export B has current owner approval and is within its approved scope."
+                },
+                {
+                  "case_id": 2,
+                  "expected": "DENY",
+                  "text": "Export C has no owner approval."
+                },
+                {
+                  "case_id": 3,
+                  "expected": "DENY",
+                  "text": "Export D's only owner approval expired yesterday."
+                }
+              ],
+              "context": {
+                "chain_id": 61997,
+                "contract_address": "0xa336823415bad11521844de9a477b85d7ec7d687"
+              },
+              "corpus_commitment": "507f9e6632c560407f916bc7430a24582194e973be873a0ca7e3aef0a9fb073a",
+              "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+              "created_at": 1795340278,
+              "enrollment_deadline": 1795340338,
+              "evaluation_deadline": 1795340638,
+              "id": 1,
+              "last_observed_at": 1795340340,
+              "owner": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+              "reveal_deadline": 1795340458,
+              "revealed_at": 1795340340,
+              "spec": {
+                "candidates": [
+                  "0x566fed25a0c2a109d72483dd4ead47d662a58475"
+                ],
+                "case_count": 4,
+                "enrollment_seconds": 60,
+                "evaluation_seconds": 180,
+                "label_rule": "ALLOW when the policy explicitly permits the exact export; DENY when it explicitly forbids it; otherwise UNCERTAIN.",
+                "max_false_allows": 0,
+                "max_false_denies": 0,
+                "nonce": "278b68284e54c35886fca264e442af10",
+                "purpose": "Classify synthetic file-export permission cases under the supplied policy text.",
+                "reveal_seconds": 120,
+                "title": "Synthetic export policy holdout"
+              },
+              "status": "REVEALED"
+            },
+            "candidate": {
+              "address": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+              "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+              "benchmark_id": 1,
+              "enrolled_at": 1795340288,
+              "id": 1,
+              "policy": "An export is ALLOW only when current owner approval is explicitly present and covers its scope. Without owner approval, or when its approval is expired, the export is DENY.",
+              "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa"
+            }
+          },
+          "inspection": {
+            "prompt_chars": 1901,
+            "prompt_sha256": "24f12b001b616fa32779ed6f68ad484648ba516b34657d0bb1a789a213c50e5a",
+            "prompt_truncated": false,
+            "prompt_utf8_bytes": 1901,
+            "reference_label_fields_in_prompt": false,
+            "semantic_complete": true
+          },
+          "metrics": {
+            "accuracy_bps": 10000,
+            "case_count": 4,
+            "confusion": {
+              "false_allow": 0,
+              "false_deny": 0,
+              "true_allow": 2,
+              "true_deny": 2
+            },
+            "correct_count": 4
+          },
+          "predictions": [
+            {
+              "case_id": 0,
+              "outcome": "ALLOW"
+            },
+            {
+              "case_id": 1,
+              "outcome": "ALLOW"
+            },
+            {
+              "case_id": 2,
+              "outcome": "DENY"
+            },
+            {
+              "case_id": 3,
+              "outcome": "DENY"
+            }
+          ],
+          "schema": "holdoutseal-v1"
+        }
+      }
+    },
+    {
+      "stage": "scoped-benchmark-finalize",
+      "method": "finalize_expired",
+      "operationHash": "bb63bdfaf60a6717a3bbfad8a433de5f607eaf6141176dbb64badb56eba079f5",
+      "contractAddress": "0xa336823415BaD11521844DE9a477b85d7ec7d687",
+      "sourceSha256": "989cbccd67e0f17274818c2d56f15e844b93a8301f6b550181b94d978aceb972",
+      "txHash": "0xedb3ed64a6e61ae89e533335ecde5045e884955df899e19043e3fc6a1df10b1b",
+      "txUrl": "https://explorer-studio-dev.genlayer.com/tx/0xedb3ed64a6e61ae89e533335ecde5045e884955df899e19043e3fc6a1df10b1b",
+      "successful": true,
+      "assertionsPassed": true,
+      "observedAt": "2026-11-22T09:44:18.605Z",
+      "observation": {
+        "benchmark": {
+          "effective_status": "FINALIZED",
+          "observed_at": 1795340652,
+          "record": {
+            "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+            "candidate_ids": [
+              1
+            ],
+            "cases": [
+              {
+                "case_id": 0,
+                "expected": "ALLOW",
+                "text": "Export A has current owner approval and is within its approved scope."
+              },
+              {
+                "case_id": 1,
+                "expected": "ALLOW",
+                "text": "Export B has current owner approval and is within its approved scope."
+              },
+              {
+                "case_id": 2,
+                "expected": "DENY",
+                "text": "Export C has no owner approval."
+              },
+              {
+                "case_id": 3,
+                "expected": "DENY",
+                "text": "Export D's only owner approval expired yesterday."
+              }
+            ],
+            "context": {
+              "chain_id": 61997,
+              "contract_address": "0xa336823415bad11521844de9a477b85d7ec7d687"
+            },
+            "corpus_commitment": "507f9e6632c560407f916bc7430a24582194e973be873a0ca7e3aef0a9fb073a",
+            "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+            "created_at": 1795340278,
+            "enrollment_deadline": 1795340338,
+            "evaluation_deadline": 1795340638,
+            "id": 1,
+            "last_observed_at": 1795340640,
+            "owner": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+            "reveal_deadline": 1795340458,
+            "revealed_at": 1795340340,
+            "spec": {
+              "candidates": [
+                "0x566fed25a0c2a109d72483dd4ead47d662a58475"
+              ],
+              "case_count": 4,
+              "enrollment_seconds": 60,
+              "evaluation_seconds": 180,
+              "label_rule": "ALLOW when the policy explicitly permits the exact export; DENY when it explicitly forbids it; otherwise UNCERTAIN.",
+              "max_false_allows": 0,
+              "max_false_denies": 0,
+              "nonce": "278b68284e54c35886fca264e442af10",
+              "purpose": "Classify synthetic file-export permission cases under the supplied policy text.",
+              "reveal_seconds": 120,
+              "title": "Synthetic export policy holdout"
+            },
+            "status": "FINALIZED"
+          }
+        },
+        "candidate": {
+          "effective_status": "CERTIFIED",
+          "record": {
+            "attempts": 1,
+            "candidate_hash": "a11c42463d01c8b84e5a26b8fb27f5265f4bb67858a5b9994e3c9ec4b6f8fe69",
+            "certificate": {
+              "payload": {
+                "assessed_at": 1795340352,
+                "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+                "benchmark_id": 1,
+                "candidate": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+                "candidate_id": 1,
+                "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+                "metrics": {
+                  "accuracy_bps": 10000,
+                  "case_count": 4,
+                  "confusion": {
+                    "false_allow": 0,
+                    "false_deny": 0,
+                    "true_allow": 2,
+                    "true_deny": 2
+                  },
+                  "correct_count": 4
+                },
+                "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa",
+                "schema": "holdoutseal-v1",
+                "scope": "EXACT_OWNER_DECLARED_BENCHMARK_ONLY"
+              },
+              "receipt_hash": "35b930229ac89f837f0a4d2c60c9ac375d7c3671db67fb5767e44224c9986831"
+            },
+            "locked": {
+              "address": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+              "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+              "benchmark_id": 1,
+              "enrolled_at": 1795340288,
+              "id": 1,
+              "policy": "An export is ALLOW only when current owner approval is explicitly present and covers its scope. Without owner approval, or when its approval is expired, the export is DENY.",
+              "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa"
+            },
+            "receipt": {
+              "assessed_at": 1795340352,
+              "attempt": 1,
+              "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+              "benchmark_id": 1,
+              "candidate_hash": "a11c42463d01c8b84e5a26b8fb27f5265f4bb67858a5b9994e3c9ec4b6f8fe69",
+              "candidate_id": 1,
+              "certificate_payload": {
+                "assessed_at": 1795340352,
+                "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+                "benchmark_id": 1,
+                "candidate": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+                "candidate_id": 1,
+                "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+                "metrics": {
+                  "accuracy_bps": 10000,
+                  "case_count": 4,
+                  "confusion": {
+                    "false_allow": 0,
+                    "false_deny": 0,
+                    "true_allow": 2,
+                    "true_deny": 2
+                  },
+                  "correct_count": 4
+                },
+                "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa",
+                "schema": "holdoutseal-v1",
+                "scope": "EXACT_OWNER_DECLARED_BENCHMARK_ONLY"
+              },
+              "certified": true,
+              "decision": "CERTIFIED",
+              "input": {
+                "benchmark": {
+                  "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+                  "candidate_ids": [
+                    1
+                  ],
+                  "cases": [
+                    {
+                      "case_id": 0,
+                      "expected": "ALLOW",
+                      "text": "Export A has current owner approval and is within its approved scope."
+                    },
+                    {
+                      "case_id": 1,
+                      "expected": "ALLOW",
+                      "text": "Export B has current owner approval and is within its approved scope."
+                    },
+                    {
+                      "case_id": 2,
+                      "expected": "DENY",
+                      "text": "Export C has no owner approval."
+                    },
+                    {
+                      "case_id": 3,
+                      "expected": "DENY",
+                      "text": "Export D's only owner approval expired yesterday."
+                    }
+                  ],
+                  "context": {
+                    "chain_id": 61997,
+                    "contract_address": "0xa336823415bad11521844de9a477b85d7ec7d687"
+                  },
+                  "corpus_commitment": "507f9e6632c560407f916bc7430a24582194e973be873a0ca7e3aef0a9fb073a",
+                  "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+                  "created_at": 1795340278,
+                  "enrollment_deadline": 1795340338,
+                  "evaluation_deadline": 1795340638,
+                  "id": 1,
+                  "last_observed_at": 1795340340,
+                  "owner": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+                  "reveal_deadline": 1795340458,
+                  "revealed_at": 1795340340,
+                  "spec": {
+                    "candidates": [
+                      "0x566fed25a0c2a109d72483dd4ead47d662a58475"
+                    ],
+                    "case_count": 4,
+                    "enrollment_seconds": 60,
+                    "evaluation_seconds": 180,
+                    "label_rule": "ALLOW when the policy explicitly permits the exact export; DENY when it explicitly forbids it; otherwise UNCERTAIN.",
+                    "max_false_allows": 0,
+                    "max_false_denies": 0,
+                    "nonce": "278b68284e54c35886fca264e442af10",
+                    "purpose": "Classify synthetic file-export permission cases under the supplied policy text.",
+                    "reveal_seconds": 120,
+                    "title": "Synthetic export policy holdout"
+                  },
+                  "status": "REVEALED"
+                },
+                "candidate": {
+                  "address": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+                  "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+                  "benchmark_id": 1,
+                  "enrolled_at": 1795340288,
+                  "id": 1,
+                  "policy": "An export is ALLOW only when current owner approval is explicitly present and covers its scope. Without owner approval, or when its approval is expired, the export is DENY.",
+                  "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa"
+                }
+              },
+              "inspection": {
+                "prompt_chars": 1901,
+                "prompt_sha256": "24f12b001b616fa32779ed6f68ad484648ba516b34657d0bb1a789a213c50e5a",
+                "prompt_truncated": false,
+                "prompt_utf8_bytes": 1901,
+                "reference_label_fields_in_prompt": false,
+                "semantic_complete": true
+              },
+              "metrics": {
+                "accuracy_bps": 10000,
+                "case_count": 4,
+                "confusion": {
+                  "false_allow": 0,
+                  "false_deny": 0,
+                  "true_allow": 2,
+                  "true_deny": 2
+                },
+                "correct_count": 4
+              },
+              "predictions": [
+                {
+                  "case_id": 0,
+                  "outcome": "ALLOW"
+                },
+                {
+                  "case_id": 1,
+                  "outcome": "ALLOW"
+                },
+                {
+                  "case_id": 2,
+                  "outcome": "DENY"
+                },
+                {
+                  "case_id": 3,
+                  "outcome": "DENY"
+                }
+              ],
+              "schema": "holdoutseal-v1"
+            },
+            "receipt_hash": "35b930229ac89f837f0a4d2c60c9ac375d7c3671db67fb5767e44224c9986831",
+            "status": "CERTIFIED"
+          }
+        },
+        "certificate": {
+          "payload": {
+            "assessed_at": 1795340352,
+            "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+            "benchmark_id": 1,
+            "candidate": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+            "candidate_id": 1,
+            "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+            "metrics": {
+              "accuracy_bps": 10000,
+              "case_count": 4,
+              "confusion": {
+                "false_allow": 0,
+                "false_deny": 0,
+                "true_allow": 2,
+                "true_deny": 2
+              },
+              "correct_count": 4
+            },
+            "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa",
+            "schema": "holdoutseal-v1",
+            "scope": "EXACT_OWNER_DECLARED_BENCHMARK_ONLY"
+          },
+          "receipt_hash": "35b930229ac89f837f0a4d2c60c9ac375d7c3671db67fb5767e44224c9986831"
+        }
+      }
+    }
+  ],
+  "finalStats": {
+    "benchmarks": 2,
+    "candidates": 2,
+    "contract_version": "1.0.0",
+    "max_attempts": 3,
+    "max_candidates": 4,
+    "max_case_chars": 500,
+    "max_cases": 6,
+    "max_policy_chars": 1000,
+    "max_prompt_bytes": 65000,
+    "max_prompt_chars": 34000,
+    "receipt_schema": "holdoutseal-v1"
+  },
+  "verification": "A fresh commitment changes only case A to explicitly include approved scope. Consensus certifies the scoped metrics; real deadline finalization preserves the certificate.",
+  "benchmarkId": 1,
+  "candidateId": 1,
+  "fixtureVisibility": "Published synthetic public example; one isolated account owns benchmark and policy.",
+  "phaseSeconds": {
+    "enrollment": 60,
+    "reveal": 120,
+    "evaluation": 180
+  },
+  "semanticStatus": "CERTIFIED",
+  "opened": {
+    "effective_status": "COMMITTED",
+    "observed_at": 1795340286,
+    "record": {
+      "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+      "candidate_ids": [],
+      "cases": null,
+      "context": {
+        "chain_id": 61997,
+        "contract_address": "0xa336823415bad11521844de9a477b85d7ec7d687"
+      },
+      "corpus_commitment": "507f9e6632c560407f916bc7430a24582194e973be873a0ca7e3aef0a9fb073a",
+      "corpus_hash": "",
+      "created_at": 1795340278,
+      "enrollment_deadline": 1795340338,
+      "evaluation_deadline": 1795340638,
+      "id": 1,
+      "last_observed_at": 1795340278,
+      "owner": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+      "reveal_deadline": 1795340458,
+      "revealed_at": 0,
+      "spec": {
+        "candidates": [
+          "0x566fed25a0c2a109d72483dd4ead47d662a58475"
+        ],
+        "case_count": 4,
+        "enrollment_seconds": 60,
+        "evaluation_seconds": 180,
+        "label_rule": "ALLOW when the policy explicitly permits the exact export; DENY when it explicitly forbids it; otherwise UNCERTAIN.",
+        "max_false_allows": 0,
+        "max_false_denies": 0,
+        "nonce": "278b68284e54c35886fca264e442af10",
+        "purpose": "Classify synthetic file-export permission cases under the supplied policy text.",
+        "reveal_seconds": 120,
+        "title": "Synthetic export policy holdout"
+      },
+      "status": "COMMITTED"
+    }
+  },
+  "revealed": {
+    "effective_status": "REVEALED",
+    "observed_at": 1795340351,
+    "record": {
+      "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+      "candidate_ids": [
+        1
+      ],
+      "cases": [
+        {
+          "case_id": 0,
+          "expected": "ALLOW",
+          "text": "Export A has current owner approval and is within its approved scope."
+        },
+        {
+          "case_id": 1,
+          "expected": "ALLOW",
+          "text": "Export B has current owner approval and is within its approved scope."
+        },
+        {
+          "case_id": 2,
+          "expected": "DENY",
+          "text": "Export C has no owner approval."
+        },
+        {
+          "case_id": 3,
+          "expected": "DENY",
+          "text": "Export D's only owner approval expired yesterday."
+        }
+      ],
+      "context": {
+        "chain_id": 61997,
+        "contract_address": "0xa336823415bad11521844de9a477b85d7ec7d687"
+      },
+      "corpus_commitment": "507f9e6632c560407f916bc7430a24582194e973be873a0ca7e3aef0a9fb073a",
+      "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+      "created_at": 1795340278,
+      "enrollment_deadline": 1795340338,
+      "evaluation_deadline": 1795340638,
+      "id": 1,
+      "last_observed_at": 1795340340,
+      "owner": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+      "reveal_deadline": 1795340458,
+      "revealed_at": 1795340340,
+      "spec": {
+        "candidates": [
+          "0x566fed25a0c2a109d72483dd4ead47d662a58475"
+        ],
+        "case_count": 4,
+        "enrollment_seconds": 60,
+        "evaluation_seconds": 180,
+        "label_rule": "ALLOW when the policy explicitly permits the exact export; DENY when it explicitly forbids it; otherwise UNCERTAIN.",
+        "max_false_allows": 0,
+        "max_false_denies": 0,
+        "nonce": "278b68284e54c35886fca264e442af10",
+        "purpose": "Classify synthetic file-export permission cases under the supplied policy text.",
+        "reveal_seconds": 120,
+        "title": "Synthetic export policy holdout"
+      },
+      "status": "REVEALED"
+    }
+  },
+  "assessed": {
+    "candidate": {
+      "effective_status": "CERTIFIED",
+      "record": {
+        "attempts": 1,
+        "candidate_hash": "a11c42463d01c8b84e5a26b8fb27f5265f4bb67858a5b9994e3c9ec4b6f8fe69",
+        "certificate": {
+          "payload": {
+            "assessed_at": 1795340352,
+            "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+            "benchmark_id": 1,
+            "candidate": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+            "candidate_id": 1,
+            "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+            "metrics": {
+              "accuracy_bps": 10000,
+              "case_count": 4,
+              "confusion": {
+                "false_allow": 0,
+                "false_deny": 0,
+                "true_allow": 2,
+                "true_deny": 2
+              },
+              "correct_count": 4
+            },
+            "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa",
+            "schema": "holdoutseal-v1",
+            "scope": "EXACT_OWNER_DECLARED_BENCHMARK_ONLY"
+          },
+          "receipt_hash": "35b930229ac89f837f0a4d2c60c9ac375d7c3671db67fb5767e44224c9986831"
+        },
+        "locked": {
+          "address": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+          "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+          "benchmark_id": 1,
+          "enrolled_at": 1795340288,
+          "id": 1,
+          "policy": "An export is ALLOW only when current owner approval is explicitly present and covers its scope. Without owner approval, or when its approval is expired, the export is DENY.",
+          "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa"
+        },
+        "receipt": {
+          "assessed_at": 1795340352,
+          "attempt": 1,
+          "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+          "benchmark_id": 1,
+          "candidate_hash": "a11c42463d01c8b84e5a26b8fb27f5265f4bb67858a5b9994e3c9ec4b6f8fe69",
+          "candidate_id": 1,
+          "certificate_payload": {
+            "assessed_at": 1795340352,
+            "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+            "benchmark_id": 1,
+            "candidate": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+            "candidate_id": 1,
+            "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+            "metrics": {
+              "accuracy_bps": 10000,
+              "case_count": 4,
+              "confusion": {
+                "false_allow": 0,
+                "false_deny": 0,
+                "true_allow": 2,
+                "true_deny": 2
+              },
+              "correct_count": 4
+            },
+            "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa",
+            "schema": "holdoutseal-v1",
+            "scope": "EXACT_OWNER_DECLARED_BENCHMARK_ONLY"
+          },
+          "certified": true,
+          "decision": "CERTIFIED",
+          "input": {
+            "benchmark": {
+              "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+              "candidate_ids": [
+                1
+              ],
+              "cases": [
+                {
+                  "case_id": 0,
+                  "expected": "ALLOW",
+                  "text": "Export A has current owner approval and is within its approved scope."
+                },
+                {
+                  "case_id": 1,
+                  "expected": "ALLOW",
+                  "text": "Export B has current owner approval and is within its approved scope."
+                },
+                {
+                  "case_id": 2,
+                  "expected": "DENY",
+                  "text": "Export C has no owner approval."
+                },
+                {
+                  "case_id": 3,
+                  "expected": "DENY",
+                  "text": "Export D's only owner approval expired yesterday."
+                }
+              ],
+              "context": {
+                "chain_id": 61997,
+                "contract_address": "0xa336823415bad11521844de9a477b85d7ec7d687"
+              },
+              "corpus_commitment": "507f9e6632c560407f916bc7430a24582194e973be873a0ca7e3aef0a9fb073a",
+              "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+              "created_at": 1795340278,
+              "enrollment_deadline": 1795340338,
+              "evaluation_deadline": 1795340638,
+              "id": 1,
+              "last_observed_at": 1795340340,
+              "owner": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+              "reveal_deadline": 1795340458,
+              "revealed_at": 1795340340,
+              "spec": {
+                "candidates": [
+                  "0x566fed25a0c2a109d72483dd4ead47d662a58475"
+                ],
+                "case_count": 4,
+                "enrollment_seconds": 60,
+                "evaluation_seconds": 180,
+                "label_rule": "ALLOW when the policy explicitly permits the exact export; DENY when it explicitly forbids it; otherwise UNCERTAIN.",
+                "max_false_allows": 0,
+                "max_false_denies": 0,
+                "nonce": "278b68284e54c35886fca264e442af10",
+                "purpose": "Classify synthetic file-export permission cases under the supplied policy text.",
+                "reveal_seconds": 120,
+                "title": "Synthetic export policy holdout"
+              },
+              "status": "REVEALED"
+            },
+            "candidate": {
+              "address": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+              "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+              "benchmark_id": 1,
+              "enrolled_at": 1795340288,
+              "id": 1,
+              "policy": "An export is ALLOW only when current owner approval is explicitly present and covers its scope. Without owner approval, or when its approval is expired, the export is DENY.",
+              "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa"
+            }
+          },
+          "inspection": {
+            "prompt_chars": 1901,
+            "prompt_sha256": "24f12b001b616fa32779ed6f68ad484648ba516b34657d0bb1a789a213c50e5a",
+            "prompt_truncated": false,
+            "prompt_utf8_bytes": 1901,
+            "reference_label_fields_in_prompt": false,
+            "semantic_complete": true
+          },
+          "metrics": {
+            "accuracy_bps": 10000,
+            "case_count": 4,
+            "confusion": {
+              "false_allow": 0,
+              "false_deny": 0,
+              "true_allow": 2,
+              "true_deny": 2
+            },
+            "correct_count": 4
+          },
+          "predictions": [
+            {
+              "case_id": 0,
+              "outcome": "ALLOW"
+            },
+            {
+              "case_id": 1,
+              "outcome": "ALLOW"
+            },
+            {
+              "case_id": 2,
+              "outcome": "DENY"
+            },
+            {
+              "case_id": 3,
+              "outcome": "DENY"
+            }
+          ],
+          "schema": "holdoutseal-v1"
+        },
+        "receipt_hash": "35b930229ac89f837f0a4d2c60c9ac375d7c3671db67fb5767e44224c9986831",
+        "status": "CERTIFIED"
+      }
+    },
+    "attempt": {
+      "assessed_at": 1795340352,
+      "attempt": 1,
+      "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+      "benchmark_id": 1,
+      "candidate_hash": "a11c42463d01c8b84e5a26b8fb27f5265f4bb67858a5b9994e3c9ec4b6f8fe69",
+      "candidate_id": 1,
+      "certificate_payload": {
+        "assessed_at": 1795340352,
+        "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+        "benchmark_id": 1,
+        "candidate": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+        "candidate_id": 1,
+        "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+        "metrics": {
+          "accuracy_bps": 10000,
+          "case_count": 4,
+          "confusion": {
+            "false_allow": 0,
+            "false_deny": 0,
+            "true_allow": 2,
+            "true_deny": 2
+          },
+          "correct_count": 4
+        },
+        "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa",
+        "schema": "holdoutseal-v1",
+        "scope": "EXACT_OWNER_DECLARED_BENCHMARK_ONLY"
+      },
+      "certified": true,
+      "decision": "CERTIFIED",
+      "input": {
+        "benchmark": {
+          "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+          "candidate_ids": [
+            1
+          ],
+          "cases": [
+            {
+              "case_id": 0,
+              "expected": "ALLOW",
+              "text": "Export A has current owner approval and is within its approved scope."
+            },
+            {
+              "case_id": 1,
+              "expected": "ALLOW",
+              "text": "Export B has current owner approval and is within its approved scope."
+            },
+            {
+              "case_id": 2,
+              "expected": "DENY",
+              "text": "Export C has no owner approval."
+            },
+            {
+              "case_id": 3,
+              "expected": "DENY",
+              "text": "Export D's only owner approval expired yesterday."
+            }
+          ],
+          "context": {
+            "chain_id": 61997,
+            "contract_address": "0xa336823415bad11521844de9a477b85d7ec7d687"
+          },
+          "corpus_commitment": "507f9e6632c560407f916bc7430a24582194e973be873a0ca7e3aef0a9fb073a",
+          "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+          "created_at": 1795340278,
+          "enrollment_deadline": 1795340338,
+          "evaluation_deadline": 1795340638,
+          "id": 1,
+          "last_observed_at": 1795340340,
+          "owner": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+          "reveal_deadline": 1795340458,
+          "revealed_at": 1795340340,
+          "spec": {
+            "candidates": [
+              "0x566fed25a0c2a109d72483dd4ead47d662a58475"
+            ],
+            "case_count": 4,
+            "enrollment_seconds": 60,
+            "evaluation_seconds": 180,
+            "label_rule": "ALLOW when the policy explicitly permits the exact export; DENY when it explicitly forbids it; otherwise UNCERTAIN.",
+            "max_false_allows": 0,
+            "max_false_denies": 0,
+            "nonce": "278b68284e54c35886fca264e442af10",
+            "purpose": "Classify synthetic file-export permission cases under the supplied policy text.",
+            "reveal_seconds": 120,
+            "title": "Synthetic export policy holdout"
+          },
+          "status": "REVEALED"
+        },
+        "candidate": {
+          "address": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+          "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+          "benchmark_id": 1,
+          "enrolled_at": 1795340288,
+          "id": 1,
+          "policy": "An export is ALLOW only when current owner approval is explicitly present and covers its scope. Without owner approval, or when its approval is expired, the export is DENY.",
+          "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa"
+        }
+      },
+      "inspection": {
+        "prompt_chars": 1901,
+        "prompt_sha256": "24f12b001b616fa32779ed6f68ad484648ba516b34657d0bb1a789a213c50e5a",
+        "prompt_truncated": false,
+        "prompt_utf8_bytes": 1901,
+        "reference_label_fields_in_prompt": false,
+        "semantic_complete": true
+      },
+      "metrics": {
+        "accuracy_bps": 10000,
+        "case_count": 4,
+        "confusion": {
+          "false_allow": 0,
+          "false_deny": 0,
+          "true_allow": 2,
+          "true_deny": 2
+        },
+        "correct_count": 4
+      },
+      "predictions": [
+        {
+          "case_id": 0,
+          "outcome": "ALLOW"
+        },
+        {
+          "case_id": 1,
+          "outcome": "ALLOW"
+        },
+        {
+          "case_id": 2,
+          "outcome": "DENY"
+        },
+        {
+          "case_id": 3,
+          "outcome": "DENY"
+        }
+      ],
+      "schema": "holdoutseal-v1"
+    }
+  },
+  "certificate": {
+    "payload": {
+      "assessed_at": 1795340352,
+      "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+      "benchmark_id": 1,
+      "candidate": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+      "candidate_id": 1,
+      "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+      "metrics": {
+        "accuracy_bps": 10000,
+        "case_count": 4,
+        "confusion": {
+          "false_allow": 0,
+          "false_deny": 0,
+          "true_allow": 2,
+          "true_deny": 2
+        },
+        "correct_count": 4
+      },
+      "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa",
+      "schema": "holdoutseal-v1",
+      "scope": "EXACT_OWNER_DECLARED_BENCHMARK_ONLY"
+    },
+    "receipt_hash": "35b930229ac89f837f0a4d2c60c9ac375d7c3671db67fb5767e44224c9986831"
+  },
+  "expired": {
+    "benchmark": {
+      "effective_status": "FINALIZED",
+      "observed_at": 1795340652,
+      "record": {
+        "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+        "candidate_ids": [
+          1
+        ],
+        "cases": [
+          {
+            "case_id": 0,
+            "expected": "ALLOW",
+            "text": "Export A has current owner approval and is within its approved scope."
+          },
+          {
+            "case_id": 1,
+            "expected": "ALLOW",
+            "text": "Export B has current owner approval and is within its approved scope."
+          },
+          {
+            "case_id": 2,
+            "expected": "DENY",
+            "text": "Export C has no owner approval."
+          },
+          {
+            "case_id": 3,
+            "expected": "DENY",
+            "text": "Export D's only owner approval expired yesterday."
+          }
+        ],
+        "context": {
+          "chain_id": 61997,
+          "contract_address": "0xa336823415bad11521844de9a477b85d7ec7d687"
+        },
+        "corpus_commitment": "507f9e6632c560407f916bc7430a24582194e973be873a0ca7e3aef0a9fb073a",
+        "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+        "created_at": 1795340278,
+        "enrollment_deadline": 1795340338,
+        "evaluation_deadline": 1795340638,
+        "id": 1,
+        "last_observed_at": 1795340640,
+        "owner": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+        "reveal_deadline": 1795340458,
+        "revealed_at": 1795340340,
+        "spec": {
+          "candidates": [
+            "0x566fed25a0c2a109d72483dd4ead47d662a58475"
+          ],
+          "case_count": 4,
+          "enrollment_seconds": 60,
+          "evaluation_seconds": 180,
+          "label_rule": "ALLOW when the policy explicitly permits the exact export; DENY when it explicitly forbids it; otherwise UNCERTAIN.",
+          "max_false_allows": 0,
+          "max_false_denies": 0,
+          "nonce": "278b68284e54c35886fca264e442af10",
+          "purpose": "Classify synthetic file-export permission cases under the supplied policy text.",
+          "reveal_seconds": 120,
+          "title": "Synthetic export policy holdout"
+        },
+        "status": "FINALIZED"
+      }
+    },
+    "candidate": {
+      "effective_status": "CERTIFIED",
+      "record": {
+        "attempts": 1,
+        "candidate_hash": "a11c42463d01c8b84e5a26b8fb27f5265f4bb67858a5b9994e3c9ec4b6f8fe69",
+        "certificate": {
+          "payload": {
+            "assessed_at": 1795340352,
+            "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+            "benchmark_id": 1,
+            "candidate": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+            "candidate_id": 1,
+            "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+            "metrics": {
+              "accuracy_bps": 10000,
+              "case_count": 4,
+              "confusion": {
+                "false_allow": 0,
+                "false_deny": 0,
+                "true_allow": 2,
+                "true_deny": 2
+              },
+              "correct_count": 4
+            },
+            "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa",
+            "schema": "holdoutseal-v1",
+            "scope": "EXACT_OWNER_DECLARED_BENCHMARK_ONLY"
+          },
+          "receipt_hash": "35b930229ac89f837f0a4d2c60c9ac375d7c3671db67fb5767e44224c9986831"
+        },
+        "locked": {
+          "address": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+          "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+          "benchmark_id": 1,
+          "enrolled_at": 1795340288,
+          "id": 1,
+          "policy": "An export is ALLOW only when current owner approval is explicitly present and covers its scope. Without owner approval, or when its approval is expired, the export is DENY.",
+          "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa"
+        },
+        "receipt": {
+          "assessed_at": 1795340352,
+          "attempt": 1,
+          "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+          "benchmark_id": 1,
+          "candidate_hash": "a11c42463d01c8b84e5a26b8fb27f5265f4bb67858a5b9994e3c9ec4b6f8fe69",
+          "candidate_id": 1,
+          "certificate_payload": {
+            "assessed_at": 1795340352,
+            "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+            "benchmark_id": 1,
+            "candidate": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+            "candidate_id": 1,
+            "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+            "metrics": {
+              "accuracy_bps": 10000,
+              "case_count": 4,
+              "confusion": {
+                "false_allow": 0,
+                "false_deny": 0,
+                "true_allow": 2,
+                "true_deny": 2
+              },
+              "correct_count": 4
+            },
+            "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa",
+            "schema": "holdoutseal-v1",
+            "scope": "EXACT_OWNER_DECLARED_BENCHMARK_ONLY"
+          },
+          "certified": true,
+          "decision": "CERTIFIED",
+          "input": {
+            "benchmark": {
+              "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+              "candidate_ids": [
+                1
+              ],
+              "cases": [
+                {
+                  "case_id": 0,
+                  "expected": "ALLOW",
+                  "text": "Export A has current owner approval and is within its approved scope."
+                },
+                {
+                  "case_id": 1,
+                  "expected": "ALLOW",
+                  "text": "Export B has current owner approval and is within its approved scope."
+                },
+                {
+                  "case_id": 2,
+                  "expected": "DENY",
+                  "text": "Export C has no owner approval."
+                },
+                {
+                  "case_id": 3,
+                  "expected": "DENY",
+                  "text": "Export D's only owner approval expired yesterday."
+                }
+              ],
+              "context": {
+                "chain_id": 61997,
+                "contract_address": "0xa336823415bad11521844de9a477b85d7ec7d687"
+              },
+              "corpus_commitment": "507f9e6632c560407f916bc7430a24582194e973be873a0ca7e3aef0a9fb073a",
+              "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+              "created_at": 1795340278,
+              "enrollment_deadline": 1795340338,
+              "evaluation_deadline": 1795340638,
+              "id": 1,
+              "last_observed_at": 1795340340,
+              "owner": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+              "reveal_deadline": 1795340458,
+              "revealed_at": 1795340340,
+              "spec": {
+                "candidates": [
+                  "0x566fed25a0c2a109d72483dd4ead47d662a58475"
+                ],
+                "case_count": 4,
+                "enrollment_seconds": 60,
+                "evaluation_seconds": 180,
+                "label_rule": "ALLOW when the policy explicitly permits the exact export; DENY when it explicitly forbids it; otherwise UNCERTAIN.",
+                "max_false_allows": 0,
+                "max_false_denies": 0,
+                "nonce": "278b68284e54c35886fca264e442af10",
+                "purpose": "Classify synthetic file-export permission cases under the supplied policy text.",
+                "reveal_seconds": 120,
+                "title": "Synthetic export policy holdout"
+              },
+              "status": "REVEALED"
+            },
+            "candidate": {
+              "address": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+              "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+              "benchmark_id": 1,
+              "enrolled_at": 1795340288,
+              "id": 1,
+              "policy": "An export is ALLOW only when current owner approval is explicitly present and covers its scope. Without owner approval, or when its approval is expired, the export is DENY.",
+              "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa"
+            }
+          },
+          "inspection": {
+            "prompt_chars": 1901,
+            "prompt_sha256": "24f12b001b616fa32779ed6f68ad484648ba516b34657d0bb1a789a213c50e5a",
+            "prompt_truncated": false,
+            "prompt_utf8_bytes": 1901,
+            "reference_label_fields_in_prompt": false,
+            "semantic_complete": true
+          },
+          "metrics": {
+            "accuracy_bps": 10000,
+            "case_count": 4,
+            "confusion": {
+              "false_allow": 0,
+              "false_deny": 0,
+              "true_allow": 2,
+              "true_deny": 2
+            },
+            "correct_count": 4
+          },
+          "predictions": [
+            {
+              "case_id": 0,
+              "outcome": "ALLOW"
+            },
+            {
+              "case_id": 1,
+              "outcome": "ALLOW"
+            },
+            {
+              "case_id": 2,
+              "outcome": "DENY"
+            },
+            {
+              "case_id": 3,
+              "outcome": "DENY"
+            }
+          ],
+          "schema": "holdoutseal-v1"
+        },
+        "receipt_hash": "35b930229ac89f837f0a4d2c60c9ac375d7c3671db67fb5767e44224c9986831",
+        "status": "CERTIFIED"
+      }
+    },
+    "certificate": {
+      "payload": {
+        "assessed_at": 1795340352,
+        "benchmark_hash": "0ba55cbaaf61901044eb43999ad7f396b2fb1158d7ba45283043b47b92d13f9b",
+        "benchmark_id": 1,
+        "candidate": "0x566fed25a0c2a109d72483dd4ead47d662a58475",
+        "candidate_id": 1,
+        "corpus_hash": "563793c054eb05fe4afc83f76fda951adf3ff0625d5e1cfe5026a92ff2b1de5f",
+        "metrics": {
+          "accuracy_bps": 10000,
+          "case_count": 4,
+          "confusion": {
+            "false_allow": 0,
+            "false_deny": 0,
+            "true_allow": 2,
+            "true_deny": 2
+          },
+          "correct_count": 4
+        },
+        "policy_hash": "6041ee0d0e386c2d13ef0333f56214f12aa1bcafe2d806aaa7b51d15cfa9cefa",
+        "schema": "holdoutseal-v1",
+        "scope": "EXACT_OWNER_DECLARED_BENCHMARK_ONLY"
+      },
+      "receipt_hash": "35b930229ac89f837f0a4d2c60c9ac375d7c3671db67fb5767e44224c9986831"
+    }
+  },
+  "completedAt": "2026-11-22T09:44:42.767Z"
+}

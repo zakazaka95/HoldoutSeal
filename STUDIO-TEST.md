@@ -1,18 +1,18 @@
 # HoldoutSeal reproducible Studio walkthrough
 
-This is a future procedure, not evidence that it was run. **Local preparation only:
-wait for explicit go before publishing, deploying, transacting or submitting.**
-Use synthetic material, Normal / Full Consensus, simulation off, value **0 GEN**.
+This is the reproducible procedure. Actual execution evidence is recorded
+separately in [DEPLOYMENT.md](DEPLOYMENT.md). Use synthetic material,
+Normal / Full Consensus, simulation off, value **0 GEN**.
 Network execution fees are separate. Do not switch Studio source while Sending or
 Deploying; wait until the transaction is visibly submitted to the intended address.
 
 ## 1. Deploy exact tracked source
 
-After go, publish the source, tests, offline helper and documentation together.
-Deploy this exact `HoldoutSeal.py` with no constructor arguments. Recheck the actual
-host, schema, runner and network; the pinned API family was used by earlier
-contracts but this source has not been deployed. Require GenVM SUCCESS, inspect
-the complete Explorer source and compare it with the immutable tracked file.
+Use the published source, tests, offline helper and documentation together.
+Deploy this exact `HoldoutSeal.py` with no constructor arguments. The release
+pins the v0.4.0 runner; recheck your actual host, schema and network. Require
+GenVM SUCCESS, inspect the complete Explorer source and compare it with the
+immutable tracked file linked from README.md.
 
 Read `get_stats`: version `1.0.0`, schema `holdoutseal-v1`, zero counters. Copy the
 actual deployed contract address, actual chain ID and benchmark owner's Studio
@@ -38,9 +38,9 @@ account that will enroll and assess:
   "max_false_allows": 0,
   "max_false_denies": 0,
   "nonce": "<fresh owner nonce>",
-  "enrollment_seconds": 120,
+  "enrollment_seconds": 60,
   "reveal_seconds": 120,
-  "evaluation_seconds": 1200
+  "evaluation_seconds": 180
 }
 ```
 
@@ -48,12 +48,24 @@ The complete corpus is:
 
 ```json
 [
-  {"case_id":0,"text":"Export A has current owner approval.","expected":"ALLOW"},
+  {"case_id":0,"text":"Export A has current owner approval and is within its approved scope.","expected":"ALLOW"},
   {"case_id":1,"text":"Export B has current owner approval and is within its approved scope.","expected":"ALLOW"},
   {"case_id":2,"text":"Export C has no owner approval.","expected":"DENY"},
   {"case_id":3,"text":"Export D's only owner approval expired yesterday.","expected":"DENY"}
 ]
 ```
+
+This is the clarified synthetic fixture. The first live benchmark instead used
+`Export A has current owner approval.` for case 0. That did not explicitly state
+the scope required by the unchanged policy: the accepted predictions were
+`UNCERTAIN, ALLOW, DENY, DENY`. The result was terminal `INCONCLUSIVE`, with null
+metrics and no certificate. The release preserves it separately in
+[DEPLOYMENT.md](DEPLOYMENT.md). The clarified fixture uses a new benchmark,
+nonce, salt and commitment; it does not retry or replace the first result.
+
+The 60/120/180-second phases match the clarified live demonstration. Choose longer
+durations before commitment if manual steps cannot reliably meet those deadlines;
+durations cannot be extended after the benchmark opens.
 
 Make a local `private-fixture.json` with `owner`, `contract_address`, `chain_id`,
 `spec` (the exact specification), `cases` (the exact corpus), and `salt`. Use actual
@@ -102,13 +114,15 @@ labels, early reveal and late enrollment must fail without changing state.
 
 ## 5. Assess complete frozen policy
 
-Before `evaluation_deadline`, as that exact candidate call `assess_policy(id)`.
+Before `evaluation_deadline`, as that exact candidate call
+`assess_policy(candidate_id)` using the returned **candidate ID**, not the
+benchmark ID.
 Independent validators classify every complete case without the structured
 reference-label fields. The expected positive fixture predicts ALLOW, ALLOW, DENY,
 DENY, producing true_allow `2`, true_deny `2`, zero errors and accuracy `10000` bps.
 
-Read the actual candidate, accepted attempt and `get_certificate`. A successful
-stored result must be `CERTIFIED`, semantic inspection complete, no truncation,
+Read the actual candidate, accepted attempt and `get_certificate`. The positive
+fixture's expected result is `CERTIFIED`, semantic inspection complete, no truncation,
 all case predictions, complete metrics, exact policy/corpus hashes and certificate
 scope `EXACT_OWNER_DECLARED_BENCHMARK_ONLY`. The certificate's receipt hash must
 match the stored full receipt. This is GenLayer interpretation of policy **text**,
@@ -142,5 +156,5 @@ first candidate. Save actual receipts and IDs, including adverse outcomes.
 Update [DEPLOYMENT.md](DEPLOYMENT.md) only with actual source commit, address,
 deployment/assessment/finalization transactions, GenVM results and persisted reads.
 Attach its own repository, immutable source file, exact Explorer address and a real
-semantic assessment transaction to the future Portal contribution. No automatic
+semantic assessment transaction to the Portal contribution. No automatic
 release or submission is configured.

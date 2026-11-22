@@ -3,8 +3,19 @@
 HoldoutSeal preserves the order of a finite policy-description evaluation:
 **commit the corpus, lock candidate policy text, reveal, then score**.
 
-**Prepared locally on November 8, 2026 for the week beginning November 16. Not
-published, not deployed and not submitted. External release waits for explicit go.**
+**Published November 22, 2026.** The complete source, tests and reproducible
+walkthrough are included. See [DEPLOYMENT.md](DEPLOYMENT.md) for the current
+network verification and release evidence.
+
+[Immutable contract source](https://github.com/zakazaka95/HoldoutSeal/blob/8b4413ebdf1d98a44087f9a781c55d760442189c/HoldoutSeal.py).
+The current native source-schema check passes with the pinned v0.4.0 runner.
+Only the two runner-header lines changed from the archived prepared source;
+contract behavior is unchanged and all 41 controlled-output tests pass.
+
+The [live demonstration](evidence/demo-result.json) preserves an original
+`INCONCLUSIVE` benchmark and a separately committed, clarified `CERTIFIED`
+benchmark. Both finalizations and all eleven transactions succeeded and reached
+`FINALIZED`; the exact scoped certificate survives finalization.
 
 ## What becomes state
 
@@ -142,7 +153,7 @@ part of the commitment. Case array order and actual text are part of it.
 | Prompt | 34,000 characters and 65,000 UTF-8 bytes |
 | Accepted technical attempts | 3 per candidate |
 
-## Local checks and future release
+## Verification and reproducible release
 
 ```text
 python -m unittest -v test_holdoutseal
@@ -160,5 +171,5 @@ single-file deployed contract. Feed a local object containing `owner`,
 `contract_address`, `chain_id`, `spec`, `cases`, `salt` to its standard input; it
 prints only the digest. Do not upload the secret fixture or salt before enrollment
 closes. See [STUDIO-TEST.md](STUDIO-TEST.md) for the exact reproducible flow and
-[DEPLOYMENT.md](DEPLOYMENT.md) for pending live evidence. [SUBMISSION-PACK.md](SUBMISSION-PACK.md)
-contains the future Portal text. Public release still requires the user's go.
+[DEPLOYMENT.md](DEPLOYMENT.md) for observed release evidence and
+[SUBMISSION-PACK.md](SUBMISSION-PACK.md) for the Portal description and links.
